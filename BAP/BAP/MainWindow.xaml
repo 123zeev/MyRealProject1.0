@@ -6,7 +6,33 @@
         xmlns:local="clr-namespace:BAP"
         mc:Ignorable="d"
         Title="MainWindow" Background="AliceBlue" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FFF7F5F5">
+        <TextBox HorizontalAlignment="Left" Height="23"
+                 Margin="309,211,0,0" TextWrapping="Wrap"
+                 Text="Passward" Foreground="DimGray" VerticalAlignment="Top"
+                 Width="120" Name="PasswordTextBox"/>
+
+        <Button Content="LOGIN" Name="LoginButton" Click="LoginButton_Click"
+                HorizontalAlignment="Left" Margin="309,267,0,0"
+                VerticalAlignment="Top" Width="120"/>
+
+        <TextBox HorizontalAlignment="Left" Foreground="DimGray" Name="UserNameTextBox"
+                 Height="23" Margin="309,169,0,0" TextWrapping="Wrap"
+                 Text="Username" VerticalAlignment="Top" Width="120"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="331,242,0,0"
+                   TextWrapping="Wrap" Text="REMEMBER ME" VerticalAlignment="Top"/>
+
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap"
+                   Text="BASKETBAL ASSISTANCE PROJECT"  VerticalAlignment="Top"
+                   Margin="218,116,0,0" Height="48" Foreground="Red"
+                   FontSize="20" Width="305"/>
+
+        <Button Content="SIGN UP" Name="SignUpButton" Click="SignUpButton_Click"
+                HorizontalAlignment="Left" Margin="309,298,0,0"
+                VerticalAlignment="Top" Width="120" Height="22"/>
+
+        <CheckBox HorizontalAlignment="Left" VerticalAlignment="Top"
+                  Height="17" Width="17" Margin="309,242,0,0"/>
     </Grid>
 </Window>
