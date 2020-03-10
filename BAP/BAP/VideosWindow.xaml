@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="VideosWindow" Height="450" Width="800">
     <Grid>
-        
+        <ScrollBar HorizontalAlignment="Left" Margin="765,0,0,0" VerticalAlignment="Top" Height="411" Width="10"/>
+
     </Grid>
 </Window>

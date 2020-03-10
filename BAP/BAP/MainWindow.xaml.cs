@@ -37,10 +37,10 @@ namespace BAP
                 this.Close();
 
                 // else
-                MessageBox.Show("אין משתמש כזה, צור חדש");
+                MessageBox.Show("שם משתמש או הסיסמה שגויים, אנא נסה שנית");
             }
             else
-                MessageBox.Show("missing values.");
+                MessageBox.Show("");
         }
 
         private void SignUpButton_Click(object sender, RoutedEventArgs e)
