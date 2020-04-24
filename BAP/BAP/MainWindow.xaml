@@ -18,7 +18,7 @@
 
 		<Button Content="LOGIN" Foreground="White" Name="LoginButton" Click="LoginButton_Click"
                 HorizontalAlignment="Left" Margin="338.667,246,0,0"
-                VerticalAlignment="Top" Width="120" Grid.Column="1" Background="Black"/>
+                VerticalAlignment="Top" Width="120" Grid.Column="1" Background="Black" FontWeight="Bold"/>
 
 		<TextBox HorizontalAlignment="Left" Foreground="DimGray" Name="UserNameTextBox"
                  Height="23" Margin="338.667,169,0,0" TextWrapping="Wrap"
@@ -35,7 +35,7 @@
 
 		<Button Content="SIGN UP" Foreground="White" Name="SignUpButton" Click="SignUpButton_Click"
                 HorizontalAlignment="Left" Margin="338.667,271,0,0"
-                VerticalAlignment="Top" Width="120" Height="22" Grid.Column="1" Background="Black"/>
+                VerticalAlignment="Top" Width="120" Height="22" Grid.Column="1" Background="Black" FontWeight="Bold"/>
 
 		<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top"
                   Height="17" Width="17" Margin="338.667,225,0,0" Grid.Column="1"/>

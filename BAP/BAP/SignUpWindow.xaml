@@ -7,6 +7,24 @@
         mc:Ignorable="d"
         Title="SignUpWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap"
+            Text="BASKETBAL ASSISTANCE PROJECT"  VerticalAlignment="Top"
+            Margin="229,34,0,0" Height="30" Foreground="OrangeRed"
+            FontSize="20" Width="312"
+            FontWeight="DemiBold"/>
+
+        <Image Margin="553,29,201,345" Source="Image9.png" Stretch="Fill"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="565,142,0,0" TextWrapping="Wrap" Text="First name" VerticalAlignment="Top" Width="136" Name="Firstname" Foreground="DimGray"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="392,142,0,0" TextWrapping="Wrap" Text="Last name" VerticalAlignment="Top" Width="136" Name="Lastname" Foreground="DimGray"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="565,202,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="136" Name="Username" Foreground="DimGray"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="392,202,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="136" Name="Email" Foreground="DimGray"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="567,262,0,0" TextWrapping="Wrap" Text="Passward" VerticalAlignment="Top" Width="136" Name="Password" Foreground="DimGray"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="392,262,0,0" TextWrapping="Wrap" Text="Confirm" VerticalAlignment="Top" Width="136" Name="Confirm" Foreground="DimGray"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="274,179,0,0" TextWrapping="Wrap" Text="Age" VerticalAlignment="Top" Width="50" Name="Age" Foreground="DimGray"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="214,179,0,0" TextWrapping="Wrap" Text="Height" VerticalAlignment="Top" Width="50" Name="Height" Foreground="DimGray"/>
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="154,179,0,0" TextWrapping="Wrap" Text="Weight" VerticalAlignment="Top" Width="50" Name="Weight" Foreground="DimGray"/>
+        <TextBlock HorizontalAlignment="Left" Height="31" Margin="154,142,0,0" TextWrapping="Wrap" Text="Physical data" VerticalAlignment="Top" Width="169" Foreground="DarkSlateGray" FontSize="17" FontWeight="Bold"/>
+        <Button Content="Create" HorizontalAlignment="Left" Height="37" Margin="110,310,0,0" VerticalAlignment="Top" Width="120" Foreground="White" Background="Black" FontSize="18" FontWeight="Bold"/>
+
     </Grid>
 </Window>
