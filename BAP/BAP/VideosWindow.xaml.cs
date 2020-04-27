@@ -23,5 +23,9 @@ namespace BAP
         {
             InitializeComponent();
         }
+        public VideosWindow(string name)
+        {
+            InitializeComponent();
+        }
     }
 }

@@ -24,6 +24,12 @@ namespace BAP
         {
             InitializeComponent();
         }
+        public MainWindow(string name, string passward)
+        {
+            InitializeComponent();
+            UserNameTextBox.Text = name;
+            PasswordTextBox.Text = passward;
+        }
 
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
@@ -32,12 +38,12 @@ namespace BAP
             if (userName != "" && userPass != "")
             {
                 //if exist
-                VideosWindow vw = new VideosWindow();
+                VideosWindow vw = new VideosWindow(userName);
                 vw.Show();
                 this.Close();
 
                 // else
-                MessageBox.Show("שם משתמש או הסיסמה שגויים, אנא נסה שנית");
+                //MessageBox.Show("שם משתמש או הסיסמה שגויים, אנא נסה שנית");
             }
             else
                 MessageBox.Show("");

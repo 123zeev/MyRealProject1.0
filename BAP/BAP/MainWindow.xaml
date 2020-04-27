@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BAP"
         mc:Ignorable="d"
-        Title="MainWindow" Background="Black" Height="450" Width="800">
-	<Grid Background="WhiteSmoke">
+        Title="MainWindow" Background="Black" Height="450" Width="800" MinHeight="475" MaxHeight="475">
+    <Grid Background="WhiteSmoke">
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition/>
 			<ColumnDefinition Width="791*"/>
@@ -39,7 +39,7 @@
 
 		<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top"
                   Height="17" Width="17" Margin="338.667,225,0,0" Grid.Column="1"/>
-		<Image Margin="567,95,186,279" Source="Image9.png" Stretch="Fill" Grid.Column="1"/>
+		<Image Margin="567,95,186,303" Source="Image9.png" Stretch="Fill" Grid.Column="1"/>
 		<Image Margin="12,94,547,38" Source="Image10.png" Stretch="Fill" Grid.Column="1"/>
 		<Image Margin="530,222,83,21" Source="Image11.png" Stretch="Fill" Grid.Column="1"/>
 		<Image Margin="613,8,-5,220" Source="Image12.png" Stretch="Fill" Grid.Column="1"/>

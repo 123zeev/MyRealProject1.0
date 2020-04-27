@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BAP"
         mc:Ignorable="d"
-        Title="VideosWindow" Height="450" Width="800">
+        Title="VideosWindow" Height="450" Width="800" MinHeight="475" MaxHeight="475">
     <Grid>
-        <ScrollBar HorizontalAlignment="Left" Margin="765,0,0,0" VerticalAlignment="Top" Height="411" Width="10"/>
+        <ScrollBar HorizontalAlignment="Left" Margin="765,0,0,0" VerticalAlignment="Top" Height="0" Width="10"/>
 
     </Grid>
 </Window>

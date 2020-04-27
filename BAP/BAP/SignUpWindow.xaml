@@ -16,7 +16,7 @@
         <Image Margin="553,29,201,345" Source="Image9.png" Stretch="Fill"/>
         <TextBox HorizontalAlignment="Left" Height="34"
          Margin="211,148,0,0" TextWrapping="Wrap" Text="First name"
-         VerticalAlignment="Top" Width="136" Name="Firstname"
+         VerticalAlignment="Top" Width="136" Name="FirstnameTB"
          Foreground="DimGray"/>
         <TextBox HorizontalAlignment="Left" Height="34" Margin="38,148,0,0"
          TextWrapping="Wrap" Text="Last name" VerticalAlignment="Top"
@@ -27,10 +27,10 @@
         <TextBox HorizontalAlignment="Left" Height="34" Margin="38,208,0,0"
          TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="136"
          Name="Email" Foreground="DimGray"/>
-        <TextBox HorizontalAlignment="Left" Height="34" Margin="213,268,0,0"
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="38,268,0,0"
          TextWrapping="Wrap" Text="Passward" VerticalAlignment="Top" Width="136"
          Name="Password" Foreground="DimGray"/>
-        <TextBox HorizontalAlignment="Left" Height="34" Margin="38,268,0,0"
+        <TextBox HorizontalAlignment="Left" Height="34" Margin="213,268,0,0"
          TextWrapping="Wrap" Text="Confirm" VerticalAlignment="Top" Width="136"
          Name="Confirm" Foreground="DimGray"/>
         <TextBox HorizontalAlignment="Left" Height="34" Margin="540,165,0,0"
@@ -47,7 +47,8 @@
          Foreground="Black" FontSize="17" FontWeight="Bold"/>
         <Button Content="Create" HorizontalAlignment="Left" Height="37"
          Margin="591,330,0,0" VerticalAlignment="Top" Width="120"
-         Foreground="White" Background="Black" FontSize="18" FontWeight="Bold"/>
+         Foreground="White" Background="Black" FontSize="18" FontWeight="Bold" Name="CreateB"
+                Click="CreateB_Click"/>
         <TextBlock HorizontalAlignment="Left" Height="31" Margin="37,100,0,0"
          TextWrapping="Wrap" Text="Create Your Player Account" VerticalAlignment="Top"
          Width="322" Foreground="Black" FontSize="18" FontWeight="DemiBold"/>
