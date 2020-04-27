@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BAP"
         mc:Ignorable="d"
-        Title="MainWindow" Background="Black" Height="450" Width="800" MinHeight="475" MaxHeight="475">
-    <Grid Background="WhiteSmoke">
+        Title="MainWindow" Background="WhiteSmoke" Height="450" Width="800" MinHeight="475" MaxHeight="475">
+    <Grid>
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition/>
 			<ColumnDefinition Width="791*"/>
@@ -16,12 +16,14 @@
                  Text="Passward" Foreground="DimGray" VerticalAlignment="Top"
                  Width="120" Name="PasswordTextBox" Grid.Column="1"/>
 
-		<Button Content="LOGIN" Foreground="White" Name="LoginButton" Click="LoginButton_Click"
+		<Button Content="LOGIN" Foreground="White" 
+                Name="LoginButton" Click="LoginButton_Click"
                 HorizontalAlignment="Left" Margin="338.667,246,0,0"
-                VerticalAlignment="Top" Width="120" Grid.Column="1" Background="Black" FontWeight="Bold"/>
+                VerticalAlignment="Top" Width="120" Grid.Column="1"
+                Background="Black" FontWeight="Bold"/>
 
-		<TextBox HorizontalAlignment="Left" Foreground="DimGray" Name="UserNameTextBox"
-                 Height="23" Margin="338.667,169,0,0" TextWrapping="Wrap"
+		<TextBox HorizontalAlignment="Left" Foreground="DimGray"
+                 Name="UserNameTextBox" Height="23" Margin="338.667,169,0,0" TextWrapping="Wrap"
                  Text="Username" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
 
 		<TextBlock HorizontalAlignment="Left" Margin="355.667,225,0,0"
@@ -33,13 +35,16 @@
                    FontSize="20" Width="312"
 				   FontWeight="DemiBold" Grid.Column="1"/>
 
-		<Button Content="SIGN UP" Foreground="White" Name="SignUpButton" Click="SignUpButton_Click"
+		<Button Content="SIGN UP" Foreground="White" 
+                Name="SignUpButton" Click="SignUpButton_Click"
                 HorizontalAlignment="Left" Margin="338.667,271,0,0"
                 VerticalAlignment="Top" Width="120" Height="22" Grid.Column="1" Background="Black" FontWeight="Bold"/>
 
 		<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top"
-                  Height="17" Width="17" Margin="338.667,225,0,0" Grid.Column="1"/>
-		<Image Margin="567,95,186,303" Source="Image9.png" Stretch="Fill" Grid.Column="1"/>
+                  Height="17" Width="17" Margin="338.667,225,0,0" Grid.Column="1"
+                  Name="RemembermeB"/>
+	
+        <Image Margin="567,95,186,303" Source="Image9.png" Stretch="Fill" Grid.Column="1"/>
 		<Image Margin="12,94,547,38" Source="Image10.png" Stretch="Fill" Grid.Column="1"/>
 		<Image Margin="530,222,83,21" Source="Image11.png" Stretch="Fill" Grid.Column="1"/>
 		<Image Margin="613,8,-5,220" Source="Image12.png" Stretch="Fill" Grid.Column="1"/>
