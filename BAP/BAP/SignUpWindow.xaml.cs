@@ -31,7 +31,7 @@ namespace BAP
 
         private void CreateB_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow nw = new MainWindow("name", "123");
+            MainWindow nw = new MainWindow("name", "1234");
             nw.Show();
             this.Close();
         }
