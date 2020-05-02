@@ -55,5 +55,19 @@ namespace BAP
             sw.Show();
             this.Close();
         }
+
+        private void RemembermeB_Checked(object sender, RoutedEventArgs e)
+        {
+            if (RemembermeB.IsChecked == true)
+            {
+                //one optitinal offer for implements
+                //cause that in the next time you enter the app your user is login automaticly.
+                //also change all the other "rememberMe" fields (other users) to false 
+            }
+            else
+            {
+                //update the "rememberMe" field for this user to false
+            }
+        }
     }
 }

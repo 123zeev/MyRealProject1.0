@@ -42,7 +42,7 @@
 
 		<CheckBox HorizontalAlignment="Left" VerticalAlignment="Top"
                   Height="17" Width="17" Margin="338.667,225,0,0" Grid.Column="1"
-                  Name="RemembermeB"/>
+                  Name="RemembermeB" Checked="RemembermeB_Checked"/>
 	
         <Image Margin="567,95,186,303" Source="Image9.png" Stretch="Fill" Grid.Column="1"/>
 		<Image Margin="12,94,547,38" Source="Image10.png" Stretch="Fill" Grid.Column="1"/>
