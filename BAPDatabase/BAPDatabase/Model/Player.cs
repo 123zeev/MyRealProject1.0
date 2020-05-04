@@ -26,5 +26,7 @@ namespace BAPDatabase
         public string PlayerPassward { get; set; }
         [DataMember]
         public string PlayerUserName { get; set; }
+        [DataMember]
+        public bool PlayerRememberMe { get; set; }
     }
 }

@@ -60,7 +60,7 @@ namespace BAP
         {
             if (RemembermeB.IsChecked == true)
             {
-                //one optitinal offer for implements
+                //one optitional offer for implements
                 //cause that in the next time you enter the app your user is login automaticly.
                 //also change all the other "rememberMe" fields (other users) to false 
             }
