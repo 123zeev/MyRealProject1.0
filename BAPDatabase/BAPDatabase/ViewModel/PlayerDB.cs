@@ -39,6 +39,12 @@ namespace BAPDatabase
             return null;
         }
 
+        public void InsertNewPlayer(Player p)
+        {
+            string query = string.Format("INSERT INTO [Player] () VALUES ('{0}',{1})", p.PlayerPrivateName, p.PlayerAge);
+            base.Execute(query);
+        }
+
         public override void CreateModel()
         {
             PList.Clear();

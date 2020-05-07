@@ -36,6 +36,23 @@ namespace BAPDatabase
                 connection.Close();
             }
         }
+
+        public void Execute(string query)
+        {
+            command.CommandText = query;
+            try
+            {
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+            catch (Exception e)
+            { }
+            finally
+            {
+                connection.Close();
+            }
+        }
+
         public abstract void CreateModel();
     }
 }

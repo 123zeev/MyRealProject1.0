@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29519.181
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAPDatabase", "BAPDatabase\BAPDatabase.csproj", "{864E1D23-93CC-4AE8-B2FD-0AB6166C3EC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAPWcf", "BAPWcf\BAPWcf.csproj", "{EB50C2E4-3E55-4FD5-A4C1-8257951F1070}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAPHost", "BAPHost\BAPHost.csproj", "{6CEC1276-098C-431E-B0EA-EC70B3D13511}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{864E1D23-93CC-4AE8-B2FD-0AB6166C3EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{864E1D23-93CC-4AE8-B2FD-0AB6166C3EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{864E1D23-93CC-4AE8-B2FD-0AB6166C3EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB50C2E4-3E55-4FD5-A4C1-8257951F1070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB50C2E4-3E55-4FD5-A4C1-8257951F1070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB50C2E4-3E55-4FD5-A4C1-8257951F1070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB50C2E4-3E55-4FD5-A4C1-8257951F1070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CEC1276-098C-431E-B0EA-EC70B3D13511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CEC1276-098C-431E-B0EA-EC70B3D13511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CEC1276-098C-431E-B0EA-EC70B3D13511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CEC1276-098C-431E-B0EA-EC70B3D13511}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
